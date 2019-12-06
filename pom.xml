@@ -2,7 +2,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0          http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>ci.jenkins.aws</groupId>
+<<<<<<< HEAD
     <artifactId>proj5</artifactId>
+=======
+    <artifactId>proj3</artifactId>
+>>>>>>> 01c1f0e033b809334ee1e0a3de6425043229de95
     <version>1.0-RAMA</version>
     <packaging>pom</packaging>
     <name>Project Build</name>
