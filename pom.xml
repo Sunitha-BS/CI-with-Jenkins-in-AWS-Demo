@@ -22,11 +22,6 @@
             <version>3.8.1</version>
             <scope>test</scope>
         </dependency>
-       <dependency>
-            <groupId>ci.jenkins.aws</groupId>
-            <artifactId>proj3</artifactId>
-            <version>1.0-RAMA</version>
-       </dependency>
     </dependencies>
     <build>
         <pluginManagement>
@@ -55,4 +50,12 @@
             </plugin>
         </plugins>
     </build>
+    <distributionManagement>
+        <repository>
+            <id>CI-with-Jenkins</id>
+            <name>CI-with-Jenkins</name>
+            <url>http://34.93.222.4:8081/repository/CI-with-Jenkins/</url>
+            <layout>strict</layout>
+        </repository>
+</distributionManagement>
 </project>
