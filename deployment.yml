@@ -10,7 +10,7 @@ spec:
         app: demoapp
     spec:
       containers:
-      - name: demoApp
+      - name: demoapp
         image: ramkitcs/dockerapp:33
         ports:
         - containerPort: 80
