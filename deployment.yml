@@ -1,17 +1,17 @@
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
-  name: demoApp
+  name: demoapp
 spec:
   replicas: 1
   template:
     metadata:
       labels:
-        app: demoApp
+        app: demoapp
     spec:
       containers:
       - name: demoApp
-        image: ramkitcs/dockerapp:32
+        image: ramkitcs/dockerapp:33
         ports:
         - containerPort: 80
 
